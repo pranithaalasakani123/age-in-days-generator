@@ -1,0 +1,28 @@
+body{
+    background: grey;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+  }
+.container-1 > h2{
+    margin-top: 50px;
+    margin-bottom:30px;
+    margin-left:50px;
+    font-size: 3rem;
+}
+.container-1 > h4{
+    color:red;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+}
+.flex-box-container-1{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-box-container-1 div{
+    padding: 10px;
+}
